@@ -22,7 +22,7 @@ const connect = function() {
   });
 
   conn.on("connect", () => {
-    conn.write('Move: up');
+    // conn.write('Move: up');
   });
 
 
