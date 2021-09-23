@@ -16,28 +16,24 @@ const connect = function() {
 
   });
 
-  conn.on("connect", () => {
-    conn.write('Name: SEK');
+  // conn.on("connect", () => {
+  //   conn.write('Name: SEK');
 
-  });
+  // });
 
-  conn.on("connect", () => {
-    // conn.write('Move: up');
-  });
+  // conn.on("connect", () => {
+  //   // conn.write('Move: up');
+  // });
 
 
   return conn;
 };
 
-console.log("Connecting ...");
-connect();
-
+// connect();
 
 
 module.exports = {
-
-  connect,
-
+  connect
 }
 
 
