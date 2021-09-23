@@ -17,11 +17,21 @@ const handleUserInput = function(key) {
   if (key === '\u0003') {
     return process.exit(); // process is going to kill itself
   }
-  if (key === 'e') {
+  if (key === 'u') {
     con.write('Move: up')
   }
 
+  if (key === 'd') {
+    con.write('Move: down')
+  }
 
+  if (key === 'r') {
+    con.write('Move: right')
+  }
+
+  if (key === 'l') {
+    con.write('Move: left')
+  }
 
 };
 setupInput();
